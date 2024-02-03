@@ -19,6 +19,7 @@ Default config.json file:
     "notify_amount": true,
     "disconnect_notify": true,
     "webhook_url": "https://discord.com/api/webhooks/xxxxxxxx/xxxxxxxxxxxxxx",
+    "webhook_color": "0x000000",
     "current_amount": 0,
     "currency": "Gems"
 }
@@ -32,6 +33,9 @@ Whether or not the webhook should notify you if you disconnected.
 
 ### webhook_url:
 The url of the webhook.
+
+### webhook_color
+The color of the webhook.
 
 ### current_amount:
 Your current amount of currency in AFK.
